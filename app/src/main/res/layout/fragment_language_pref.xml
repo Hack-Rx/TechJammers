@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:paddingTop="11dp"
+        android:background="#ffffff">
+    <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/contentMain"></android.support.v7.widget.RecyclerView>
+    <Button
+            android:layout_width="188dp"
+            android:layout_height="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:id="@+id/dailytracker"
+            android:text="Daily Tracker"/>
+    <Button
+            android:layout_width="188dp"
+            android:layout_height="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/dailytracker"
+            android:id="@+id/calendar"
+            android:text="Calendar"/>
+    <Button
+            android:layout_width="188dp"
+            android:layout_height="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/calendar"
+            android:layout_marginTop="20dp"
+            android:id="@+id/TestBooking"
+            android:text="Test Booking"/>
+    <Button
+            android:layout_width="188dp"
+            android:layout_height="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/TestBooking"
+            android:layout_marginTop="20dp"
+            android:id="@+id/hospdocinfo"
+            android:text="Hospital and doc info"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_margin="25dp"
+            android:layout_below="@+id/health"
+            android:background="#bdbdbd"/>
+
+</RelativeLayout>
